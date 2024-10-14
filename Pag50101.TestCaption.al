@@ -15,7 +15,7 @@ page 50101 "Test Caption"
             {
                 field(Number; Rec.Number)
                 {
-                    ToolTip = 'Specifies the Excel row number.';
+                    ToolTip = 'Specifies the Excel row number. Tool tip 2';
                 }
                 field(ItemNo; Item."no.")
                 {

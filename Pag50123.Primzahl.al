@@ -16,7 +16,7 @@ page 50123 Zahlenliste
             {
                 field(Number; Rec.Number)
                 {
-                    Caption = 'Feldüberschrift mit einem sehr langen Text';
+                    Caption = 'Feldüberschrift mit einem sehr langen Text. Nochmal geändert';
                     ToolTip = 'Specifies the Excel row number.';
                 }
             }
