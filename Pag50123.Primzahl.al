@@ -16,7 +16,7 @@ page 50123 Zahlenliste
             {
                 field(Number; Rec.Number)
                 {
-                    Caption = 'Feldüberschrift mit einem sehr langen Text. Es soll geprüft werden, ob es eine maximale Länge für eine Caption gibt.';
+                    Caption = 'Feldüberschrift mit einem sehr langen Text';
                     ToolTip = 'Specifies the Excel row number.';
                 }
             }
