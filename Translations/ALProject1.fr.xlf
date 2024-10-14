@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="fr-FR" original="ALProject1">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2640673254 - Field 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Farbe</source>
+          <target>Couleur</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Eriktabelle - Field Farbe - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2640673254 - Field 3096374782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LfdNr</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Eriktabelle - Field LfdNr - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Table 2640673254 - Field 3862845261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Eriktabelle - Field Processing - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 3404469482 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Testaktion</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Erikpage - Action ActionName - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 3210477265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AL-Bollerwagen</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PageWithAddIn - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 3210477265 - Control 122706203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timeouteingabe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page PageWithAddIn - Control Timeoutfield - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 2715168068 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Caption</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Caption - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 2715168068 - Control 2272340397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Excel row number.</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Test Caption - Control Number - Property ToolTip</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 627080277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Zahlenliste mit einer sehr langen Caption. Es soll geprüft werden, ob es eine maximale Länge für eine Caption gibt.</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Zahlenliste - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 627080277 - Control 2272340397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Excel row number.</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Zahlenliste - Control Number - Property ToolTip</note>
+        <target></target></trans-unit>
+        <trans-unit id="Page 627080277 - Control 2272340397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feldüberschrift mit einem sehr langen Text. Es soll geprüft werden, ob es eine maximale Länge für eine Caption gibt.</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Zahlenliste - Control Number - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 3603606152 - Control 1642730885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Codetest</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemcardErik - Control Codetest - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 3603606152 - Control 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Farbe</source>
+          <target>Couleur</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemcardErik - Control Farbe - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3603606152 - Control 1630085809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Kategorie</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemcardErik - Control ICText - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 3603606152 - Change 2565062057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Artikelgruppe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemcardErik - Change InventoryGrp - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 3603606152 - Change 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Artikelnummer</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemcardErik - Change No. - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 2441766814 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Artikelliste Erik</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListErik - Action ActionName - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 2441766814 - Control 1642730885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Codetest</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListErik - Control Codetest - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 2980015706 - Control 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2047188335">
+          <source>Farbe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesLineFabe - Control Farbe - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="PageExtension 3143968538 - Control 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Farbe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension SalesOrderLinesErik - Control Farbe - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="TableExtension 424936916 - Field 2583267849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Artikelposten</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemErik - Field Artikelposten - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="TableExtension 424936916 - Field 1642730885 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Codetest</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemErik - Field Codetest - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="TableExtension 424936916 - Field 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Farbe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemErik - Field Farbe - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="TableExtension 424936916 - Field 97321437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
+          <source>Keine Artikelposten</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemErik - Field Keine Artikelposten - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="TableExtension 2208455925 - Field 18566982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Farbe</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension SalesLineErik - Field Farbe - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Enum 18566982 - EnumValue 1570015238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blau</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Farbe - EnumValue Blau - Property Caption</note>
+        <target>Bleu</target></trans-unit>
+        <trans-unit id="Enum 18566982 - EnumValue 1916047109 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grün</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Farbe - EnumValue Gruen - Property Caption</note>
+        <target>Vert</target></trans-unit>
+        <trans-unit id="Enum 18566982 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Farbe - EnumValue None - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Enum 18566982 - EnumValue 502601747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rot</source>
+          <target>Rouge</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Farbe - EnumValue Rot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3108107879 - EnumValue 3235154125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Minus und Durch</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Operation - EnumValue Minus und Durch - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="Enum 3108107879 - EnumValue 2321959799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plus und Mal</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Operation - EnumValue Plus und Mal - Property Caption</note>
+        <target></target></trans-unit>
+        <trans-unit id="EnumExtension 2348374757 - EnumValue 2427995294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3898628050">
+          <source>IDAutomation 1D Barcode Provider</source>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension BarcodeFontProviderErik - EnumValue IDAutomation1DErik - Property Caption</note>
+        <target></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

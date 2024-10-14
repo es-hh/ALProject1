@@ -1,0 +1,257 @@
+/* Brick */
+.brick {
+    position: relative;
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    word-wrap: normal;
+    height: 100px;
+    width: 100px;
+    margin: 10px 0px 0px 10px;
+    vertical-align: top;
+    opacity:1;
+    text-transform: uppercase;
+    background: white;
+    color: grey;
+    border: 0px none;
+    outline: 0px none;
+    box-sizing:border-box;
+    text-align: center;
+    padding:0;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s; 
+    -webkit-transition-property: color, background-color; 
+    transition-property: color, background-color; 
+}
+
+.brick:hover { 
+    background-color: #ceebfd;
+    color: white; 
+    border: 2px solid LightSkyBlue;
+} 
+
+.brick:active { 
+    background-color: LightSkyBlue; 
+    color: white; 
+} 
+
+
+
+/* Button */
+
+.button {
+    position: relative;
+    font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    word-wrap: normal;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    vertical-align: top;
+    opacity:1;
+    text-transform: uppercase;
+    background: #00838F;
+    color: white;
+    border: 0px none;
+    outline: 0px none;
+    box-sizing:border-box;
+    text-align: center;
+    padding:0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:hover {    
+    transition: 0s;
+    background: #00707A;
+}
+
+.button:active ,
+.button:active:after ,
+.button_active{
+    opacity: 1;
+    transition: 0s!important;
+    background: black !important;
+}
+
+.button_fadeout{
+    opacity: 1;
+    transition: 1s!important;
+    background: initial;
+}
+
+.button:after {
+    content: "";
+    background: black;
+    display: block;
+    position: absolute;
+    padding-top: 500%;
+    padding-left: 500%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1.3s!important;
+}
+
+.button:disabled,
+.button:disabled:after {
+    opacity:0 !important; 
+    transition: 0s !important;
+    cursor: default !important;
+  }
+
+.button:disabled{ opacity:1 !important; color: gray; }
+  
+
+/* textbox */
+.textbox {
+  color: black;
+  font-size: 36px;
+  word-wrap: normal;
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  outline: 0px none;
+  height: 75px;
+  margin: 2px;
+  width: 305px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: right;
+  box-sizing:border-box;
+}
+
+.passwordtextbox {
+  color: black;
+  font-size: 36px;
+  word-wrap: normal;
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  outline: 0px none;
+  height: 75px;
+  margin: 2px;
+  width: 305px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+  box-sizing:border-box;
+}
+
+.textlabel {
+  color: darkgray;
+  font-size: 10px;
+  word-wrap: normal;
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  outline: 0px none;
+  text-align: right;
+  box-sizing:border-box;
+  display:block;
+}
+
+
+/* Dropdown & UpwardsDropdown */
+.upwardsdropdown,
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.upwardsdropdown-content,
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow: scroll;
+}
+
+.upwardsdropdown-content{ bottom: 100%; }
+
+.upwardsdropdown-content:hover,
+.dropdown-content:hover {
+    display:block;
+}
+
+.upwardsdropdown-content button,
+.dropdown-content button {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    background-color: gray;
+    width:100%;
+}
+
+.upwardsdropdown-content_show,
+.dropdown-content_show{	display:block;	}
+
+/* Windpows 10 Style toggle */
+.windows10toggle {
+  display: table;
+  margin-bottom: 1rem;
+}
+
+.windows10toggle input:focus + div { text-decoration: underline; }
+
+.windows10toggle > div {
+  cursor: pointer;
+  border-radius: 2rem;
+  width: 5rem;
+  height: 2rem;
+  background: white;
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  text-decoration: none;
+  border: 2px solid black;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  transition: 200ms ease-out;
+  font-size: 0;
+}
+
+.windows10toggle > div:hover { box-shadow: 0 0 6px #005ca4; }
+
+.windows10toggle > div:before {
+  will-change: translate;
+  display: block;
+  position: absolute;
+  top: calc(50% - .5rem);
+  left: .5rem;
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background: black;
+  border-radius: 50%;
+  transition: 200ms;
+}
+
+.windows10toggle > div:after {
+  font-size: 1rem;
+  position: absolute;
+  right: -50%;
+  top: 50%;
+  transform: translateY(-50%);
+  content: attr(data-off);
+  pointer-events: none;
+}
+
+.windows10toggle input:checked + div {
+  background: #0078d7;
+  border-color: #0078d7;
+}
+
+.windows10toggle input:checked + div:before {
+  color: #0078d7;
+  transform: translateX(100%);
+  background: white;
+}
+
+.windows10toggle input:checked + div:after { content: attr(data-on); }
+
+.windows10toggle input:focus + div:after { text-decoration: underline; }
+

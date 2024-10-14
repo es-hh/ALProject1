@@ -1,0 +1,68 @@
+OBJECT Table 50032 Wetterdaten
+{
+  OBJECT-PROPERTIES
+  {
+    Date=31.03.22;
+    Time=08:52:05;
+    Modified=Yes;
+    Version List=;
+  }
+  PROPERTIES
+  {
+  }
+  FIELDS
+  {
+    { 1   ;   ;Station             ;Code10         }
+    { 2   ;   ;Datum               ;Date           }
+    { 10  ;   ;Qualitaetsniveau     ;Integer        }
+    { 11  ;   ;Rel. Feuchte        ;Decimal        }
+    { 12  ;   ;Dampfdruck          ;Decimal        }
+    { 13  ;   ;Lufttemperatur      ;Decimal        }
+    { 14  ;   ;Luftdruck           ;Decimal        }
+    { 15  ;   ;Windgeschwindigkeit ;Decimal        }
+    { 16  ;   ;Lufttemperatur Boden (min.);Decimal }
+    { 17  ;   ;Lufttemperatur (min.);Decimal       }
+    { 18  ;   ;Lufttemperatur (max.);Decimal       }
+    { 19  ;   ;Windspitze (max.)   ;Decimal        }
+    { 20  ;   ;Niederschlag (Ind.) ;Decimal        }
+    { 21  ;   ;Niederschlag        ;Decimal        }
+    { 22  ;   ;Sonnenscheindauer   ;Decimal        }
+    { 23  ;   ;Schneehoehe          ;Decimal       ;DecimalPlaces=0:3 }
+    { 24  ;   ;Tag                 ;Integer        }
+    { 25  ;   ;Monat               ;Integer        }
+    { 26  ;   ;Jahr                ;Integer        }
+    { 27  ;   ;Bedeckungsgrad      ;Decimal        }
+  }
+  KEYS
+  {
+    {    ;Station,Datum                           ;Clustered=Yes }
+    {    ;Datum                                   ;SumIndexFields=Lufttemperatur,Niederschlag }
+  }
+  FIELDGROUPS
+  {
+  }
+  CODE
+  {
+
+    PROCEDURE BerechneMaxDiff@1000000000(VAR Plus@1000000000 : Decimal;VAR Minus@1000000001 : Decimal);
+    VAR
+      Wetterdaten@1000000002 : Record 50032;
+    BEGIN
+      Plus := 0;
+      Minus := 0;
+      Wetterdaten.SETRANGE(Station,Station);
+      Wetterdaten.SETRANGE(Datum,Datum + 1,Datum + 7);
+      IF Wetterdaten.FINDSET THEN REPEAT
+        IF Wetterdaten."Lufttemperatur (max.)" - "Lufttemperatur (min.)" > Plus THEN
+          Plus := Wetterdaten."Lufttemperatur (max.)" - "Lufttemperatur (min.)";
+        IF "Lufttemperatur (max.)" - Wetterdaten."Lufttemperatur (min.)" > Minus THEN
+          Minus := "Lufttemperatur (max.)" - Wetterdaten."Lufttemperatur (min.)";
+      UNTIL Wetterdaten.NEXT = 0;
+    END;
+
+
+    BEGIN
+    END.
+  }
+}
+
