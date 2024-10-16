@@ -54,7 +54,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Caption - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2715168068 - Control 2272340397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the Excel row number.</source>
+          <source>Specifies the Excel row number. Tool tip Branch 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Test Caption - Control Number - Property ToolTip</note>
         </trans-unit>
@@ -69,7 +69,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Zahlenliste - Control Number - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 627080277 - Control 2272340397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Feldüberschrift mit einem sehr langen Text. Es soll geprüft werden, ob es eine maximale Länge für eine Caption gibt.</source>
+          <source>Feldüberschrift mit einem sehr langen Text. Nochmal geändert. Branch 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Zahlenliste - Control Number - Property Caption</note>
         </trans-unit>
