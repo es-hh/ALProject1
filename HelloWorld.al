@@ -36,6 +36,7 @@ pageextension 50101 ErikExtension extends "Payment Terms"
                 trigger OnAction()
                 begin
                     page.RunModal(page::PageWithAddIn);
+                    // Kommentar Git Web
                 end;
             }
 
