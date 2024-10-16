@@ -58,6 +58,7 @@ page 50123 Zahlenliste
                     ta: array[10] of text[20];
                 begin
                     message(format(maxstrlen(ta[1])));
+                    //Kommentar Main Branch
 
                 end;
             }
