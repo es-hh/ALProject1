@@ -1,67 +1,7 @@
 // Welcome to your new AL extension.
 // Remember that object names and IDs should be unique across all extensions.
 // AL snippets start with t*, like tpageext - give them a try and happy coding
-pageextension 50101 ErikExtension extends "Payment Terms"
-{
 
-    actions
-    {
-        addfirst(Navigation)
-        {
-            // Adds the action called "My Navigate" to the Navigate menu. 
-            action("My Navigate")
-            {
-                ApplicationArea = All;
-                Image = GainLossEntries;
-                RunObject = page Erikpage;
-            }
-
-            action("Zahl")
-
-            {
-                ApplicationArea = All;
-
-                trigger OnAction()
-
-                begin
-                    mathe(1);
-                    mathe(1, 2);
-                end;
-            }
-
-            action(JS)
-            {
-                ApplicationArea = All;
-
-                trigger OnAction()
-                begin
-                    page.RunModal(page::PageWithAddIn);
-                    // Kommentar Git Web
-                end;
-            }
-
-        }
-
-    }
-
-    local procedure mathe(zahl1: Decimal)
-    var
-        cust: Record Customer;
-    begin
-        Message(Format(zahl1));
-
-    end;
-
-    local procedure mathe(zahl1: Decimal; zahl2: decimal)
-
-    begin
-        Message(Format(zahl1 + zahl2));
-
-    end;
-
-
-
-}
 table 50100 Eriktabelle
 {
     DataClassification = ToBeClassified;
@@ -157,27 +97,6 @@ page 50100 Erikpage
     var
         intarray: array[10] of Record "Unit of Measure";
         boolarray: array[10] of Boolean;
-}
-enum 50100 Farbe
-{
-    Extensible = true;
-
-    value(0; None)
-    {
-        Caption = '', locked = true;
-    }
-    value(1; Blau)
-    {
-        Caption = 'Blau', Comment = 'Bitte übersetzen';
-    }
-    value(2; Gruen)
-    {
-        Caption = 'Green';
-    }
-    value(3; Rot)
-    {
-        Caption = 'Red';
-    }
 }
 
 table 50129 Filtertest
