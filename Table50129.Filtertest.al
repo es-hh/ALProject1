@@ -16,8 +16,7 @@ table 50129 Filtertest
         {
             DataClassification = ToBeClassified;
             TableRelation = Filtertest.C2 where(C1 = field(C1));
-            ValidateTableRelation = false;
-            TestTableRelation = false;
+            ValidateTableRelation = false;            
         }
 
 
