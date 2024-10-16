@@ -1,1 +1,25 @@
-/.alpackages
+# ignore an entire directory
+*/.alcache/
+*/.altestrunner/
+*/.altemplates/
+*/.temp/
+*/.vscode/.alcache/
+*/src/Translations/Backup/
+*/.vscode/.altemplates/
+*/.snapshots/
+*/.alcache/
+ 
+# ignore a file type
+*.g.xlf
+*.zip
+*.app
+*.log
+ 
+# Binary files
+.alpackages/
+*.app
+ 
+# Temp files
+*/.vs/
+*/.vscode/rad.json
+*/.vscode/launch.json
