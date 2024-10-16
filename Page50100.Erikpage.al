@@ -1,43 +1,3 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding
-
-table 50100 Eriktabelle
-{
-    DataClassification = ToBeClassified;
-
-    fields
-    {
-        field(1; LfdNr; Integer)
-        {
-            DataClassification = ToBeClassified;
-
-        }
-        field(2; Farbe; Enum Farbe)
-        {
-            DataClassification = ToBeClassified;
-
-        }
-        field(3; Processing; DateTime)
-        {
-            DataClassification = ToBeClassified;
-
-        }
-    }
-
-    keys
-    {
-        key(Key1; LfdNr)
-        {
-            Clustered = true;
-        }
-    }
-
-    var
-        myInt: Integer;
-
-
-}
 page 50100 Erikpage
 {
     PageType = List;
@@ -79,9 +39,6 @@ page 50100 Erikpage
 
                 trigger OnAction()
                 begin
-                    with rec do begin
-
-                    end;
                     Message('Test');
                 end;
 
@@ -98,4 +55,3 @@ page 50100 Erikpage
         intarray: array[10] of Record "Unit of Measure";
         boolarray: array[10] of Boolean;
 }
-
