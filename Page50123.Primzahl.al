@@ -38,6 +38,7 @@ page 50123 Zahlenliste
                 var
                     i, j, k : Integer;
                 begin
+                    //Cherry 3
                     i := 1;
                     case true of
                         i = k:
