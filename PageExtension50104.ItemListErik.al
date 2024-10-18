@@ -100,6 +100,29 @@ pageextension 50104 ItemListErik extends "Item List" //OriginalId
                     sitest.messagetext();
                 end;
             }
+            action(Filterpage)
+            {
+                ApplicationArea = All;
+                Caption = 'Filterpage';
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                trigger OnAction()
+                var
+                  FilterpageMgmtWSH : Codeunit "Filterpage Mgmt.WSH";
+                  Item: Record Item;
+                  Customer: Record Customer;
+                  begin
+                    Item.SETRANGE(Blocked,FALSE);
+                    Customer.SETRANGE(Blocked,Customer.Blocked::" ");
+                    FilterpageMgmtWSH.SetzeParameter(27,STRSUBSTNO('%1,%2,%3',Item.FIELDNO("No."),Item.FIELDNO(Description),Item.FieldNo(Blocked)),Item.GETVIEW);
+                    FilterpageMgmtWSH.SetzeParameter(18,STRSUBSTNO('%1,%2,%3',Customer.FIELDNO("No."),Customer.FIELDNO(Name),Customer.FIELDNO(Blocked)),Customer.GETVIEW);
+                    FilterpageMgmtWSH.StartFilterPage('Caption der Filterpage');
+                    Message(FilterpageMgmtWSH.HoleFiltertext(Database::Item,0));
+                    Message(FilterpageMgmtWSH.HoleFiltertext(Database::Item,1));
+
+                  end;
+            }
 
         }
     }

@@ -28,6 +28,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Filtertest - Field C2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1620621591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sort Tabelle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1620621591 - Field 1736722270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blob1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Blob1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1620621591 - Field 2485772286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Int1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Int1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1620621591 - Field 3280271782 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lfd. Nr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Lfd. Nr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1620621591 - Field 3721534664 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Text1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1620621591 - Field 64263985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Text2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3404469482 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testaktion</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -107,6 +137,11 @@
           <source>Artikelliste Erik Test</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListErik - Action ActionName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2441766814 - Action 4215999181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Filterpage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListErik - Action Filterpage - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2441766814 - Action 2633150962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
           <source>Filtertest</source>
