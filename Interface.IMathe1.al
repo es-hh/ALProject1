@@ -9,3 +9,4 @@ interface IMathe1
     // Cherry 1
     // Nicht Commited
     procedure rechne(zahl1: decimal; zahl2: decimal): Decimal
+}
