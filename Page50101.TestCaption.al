@@ -34,6 +34,7 @@ page 50101 "Test Caption"
 
     trigger OnAfterGetRecord()
     begin
+        // Commit 3
         Item.FindFirst();
         Item.next(Rec.Number);
     end;
