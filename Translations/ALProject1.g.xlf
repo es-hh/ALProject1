@@ -58,6 +58,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Sort Tabelle - Field Text2 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3346058781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tabelle E1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tabelle E1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3346058781 - Field 362031637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Int</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Tabelle E1 - Field Int - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3404469482 - Action 1692444235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Testaktion</source>
           <note from="Developer" annotates="general" priority="2"></note>
