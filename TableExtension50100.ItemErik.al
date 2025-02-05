@@ -9,6 +9,10 @@ tableextension 50100 ItemErik extends Item
         field(50000; Farbe; Enum Farbe)
         {
             DataClassification = ToBeClassified;
+            trigger OnValidate()
+            begin
+                message('Farbe');
+            end;
         }
         field(50001; Codetest; Text[250])
         {
