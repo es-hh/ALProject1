@@ -4,34 +4,36 @@ page 50130 PageWithAddIn
     ApplicationArea = All;
     UsageCategory = Administration;
     //SourceTable = Eriktabelle;
-    Caption = 'AL-Bollerwagen';
+    Caption = 'Kasse';
 
 
     layout
     {
         area(Content)
         {
-            field(Timeoutfield; timeout)
+            
+            /*field(Timeoutfield; timeout)
             {
                 ApplicationArea = All;
                 Caption = 'Timeouteingabe';
             }
+            */
             // The control add-in can be placed on the page using usercontrol keyword.
             usercontrol(ControlName; testaddin)
             {
                 ApplicationArea = All;
                 trigger Ready()
                 begin
-                    CurrPage.ControlName.addButton('B1', 'Tour', 'Tour');
+                    CurrPage.ControlName.addButton('B1', 'EC', 'EC');
                     CurrPage.ControlName.modifyStyle('B1', 'width', '100%');
-                    CurrPage.ControlName.addButton('B2', 'Artikel (Kolli Barcode) -> Auftrag', 'Artikel 1');
+                    CurrPage.ControlName.addButton('B2', 'Bar', 'Bar');
                     CurrPage.ControlName.modifyStyle('B2', 'width', '100%');
-                    CurrPage.ControlName.addButton('B3', 'Auftrag (Komm.Zettel) -> Artikel', 'Artikel 2');
+                    CurrPage.ControlName.addButton('B3', 'PayPal', 'PayPal');
                     CurrPage.ControlName.modifyStyle('B3', 'width', '100%');
-                    CurrPage.ControlName.addButton('B4', 'NVE stornieren', 'Storno');
-                    CurrPage.ControlName.modifyStyle('B4', 'width', '49.6%');
-                    CurrPage.ControlName.addButton('B5', 'NVE wiegen', 'Wiegen');
-                    CurrPage.ControlName.modifyStyle('B5', 'width', '49.6%');
+                    //CurrPage.ControlName.addButton('B4', 'NVE stornieren', 'Storno');
+                    //CurrPage.ControlName.modifyStyle('B4', 'width', '49.6%');
+                    //CurrPage.ControlName.addButton('B5', 'NVE wiegen', 'Wiegen');
+                    //CurrPage.ControlName.modifyStyle('B5', 'width', '49.6%');
                 end;
 
                 trigger ButtonPressed(buttonText: Text)
