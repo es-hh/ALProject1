@@ -2,7 +2,7 @@ pageextension 50105 "Customer List Extension" extends "Customer List"
 {
     actions
     {
-        addfirst(processing)
+        addlast(processing)
         {
              
             action("Erikliste")

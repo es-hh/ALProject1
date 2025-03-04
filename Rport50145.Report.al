@@ -47,6 +47,7 @@ Report 50145 "Debitor Posten Erik"
 	trigger OnPostReport()
 	begin
 
+
 	end;
 
 	trigger OnPreReport()
