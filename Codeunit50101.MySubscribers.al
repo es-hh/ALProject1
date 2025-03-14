@@ -22,4 +22,10 @@ codeunit 50101 MySubscribers
         //if page.RunModal(0,Item) = Action::LookupOK then
         //  message(item."No.");
     end;
+    [EventSubscriber(ObjectType::Page, Page::"Purchase Journal", 'OnAfterValidateEvent', 'Account No.', false, false)]
+    local procedure AccountNoOnValidate(var Rec: Record "Gen. Journal Line");
+
+    begin
+        Message(rec."Account No.");
+    end;
 }
