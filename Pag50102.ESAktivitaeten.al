@@ -22,7 +22,8 @@ page 50102 "ES Aktivitaeten"
                         Caption = 'EC';
                         ApplicationArea = All;
                         Image = TileBlue;
-
+                        RunObject = Page  "ES Test2";
+ 
                     }
                     action(test2)
                     {
