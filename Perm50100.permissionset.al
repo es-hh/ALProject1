@@ -25,5 +25,8 @@ permissionset 50100 permall
         page "Filtertest List"=X,
         page PageWithAddIn=X,
         page "Test Caption"=X,
-        page Zahlenliste=X;
+        page Zahlenliste=X,     
+        page "ES Aktivitaeten"=X,
+        page "ES RC"=X,
+        page "ES Test2"=X;
 }
