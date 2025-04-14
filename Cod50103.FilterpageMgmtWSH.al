@@ -76,6 +76,7 @@ codeunit 50103 "Filterpage Mgmt.WSH"
     BEGIN
       RecRefTabCaption.OPEN(TabNr);
       EXIT(RecRefTabCaption.CAPTION);
+      //Commit 2
     END;
 
     LOCAL PROCEDURE TempBlobViewSetzen(VAR TempBlob : Record "Sort Tabelle";ViewText : Text);
