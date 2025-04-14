@@ -88,6 +88,7 @@ codeunit 50103 "Filterpage Mgmt.WSH"
         EXIT;
       TempBlob.Blob1.CREATEOUTSTREAM(OutStr);
       OutStr.WRITETEXT(ViewText);
+       //Commit 3
     END;
 
 
