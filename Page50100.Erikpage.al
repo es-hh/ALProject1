@@ -48,6 +48,7 @@ page 50100 Erikpage
                             // If you use read then while written after read will not read anything because already everything in InStream variable is read -- vice versa
                             // Testkommentar
                             // Testkommentar lokal
+                            // Testkommentar Markus
                             InStr.Read(TextRead);
                             Message(TextRead);                                                        
                     end;
