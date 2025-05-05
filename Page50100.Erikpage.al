@@ -49,6 +49,7 @@ page 50100 Erikpage
                             // Testkommentar
                             // Testkommentar lokal
                             // Testkommentar Markus
+                            // Testkommentar Erik
                             InStr.Read(TextRead);
                             Message(TextRead);                                                        
                     end;
