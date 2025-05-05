@@ -47,6 +47,7 @@ page 50100 Erikpage
                      if (File.UploadIntoStream('Open File', '', 'All Files (*.*)|*.*',FileName, InStr)) then begin
                             // If you use read then while written after read will not read anything because already everything in InStream variable is read -- vice versa
                             // Testkommentar
+                            // Testkommentar lokal
                             InStr.Read(TextRead);
                             Message(TextRead);                                                        
                     end;
